@@ -1,0 +1,109 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* En-tête et navigation */
+header {
+    background-color: blanchedalmond;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: burlywood;
+}
+
+/* Conteneur principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Message de bienvenue */
+.welcome-message h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
+
+/* Contenu */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-link a {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-link a:hover {
+    background-color: #0056b3;
+}
+
+/* Pied de page */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: center;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+p b {
+    font-weight: bold; /* Définit le texte en gras */
+    color: black; /* Exemple de couleur de texte */

@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+    <nav>
+        <ul>
+            <li><a href="{{ path('app_eportfolio') }}">E-Portfolio</a></li>
+            <li><a href="{{ path('app_accueil') }}">Accueil</a></li>
+            <li><a href="{{ path('app_ensavoirplus') }}">En savoir+</a></li>
+            <li><a href="{{ path('app_portfolio') }}">Portfolio</a></li>
+            <li><a href="{{ path('app_cv') }}">CV</a></li>
+        </ul>
+    </nav>
+    <h1>Bienvenue dans ma page web</h1>
+    <div id="photo">
+        <img src="path/to/photo.jpg" alt="Photo">
+    </div>
+    <div id="contact">
+        <a href="{{ path('app_contact') }}">Formulaire de Contact</a>
+    </div>
+{% endblock %}
